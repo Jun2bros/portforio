@@ -1,0 +1,10 @@
+<svg id="svg__arrow-black" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 390 228" style="enable-background:new 0 0 390 228;" xml:space="preserve">
+<style type="text/css">
+	.svg__arrow-black{fill:none;stroke:#1D1D1D;stroke-width:12;stroke-miterlimit:10;}
+</style>
+<g>
+	<line class="svg__arrow-black" x1="81" y1="113.8" x2="308" y2="113.8"/>
+	<path class="svg__arrow-black" d="M258.4,65.4c0,0,2.6,45.4,50.1,45"/>
+	<path class="svg__arrow-black" d="M258.4,162.4c0,0,2.6-45.4,50.1-45"/>
+</g>
+</svg>

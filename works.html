@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="ja">
+
+<!-- Mirrored from yuka-kanno.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 May 2025 15:03:02 GMT -->
+<head>
+<meta charset="utf-8">
+<title>Junhyeong Yu Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="Junhyeongyu Portfolio">
+
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/common/icon_180x180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/common/icon_32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/common/icon_16x16.png">
+
+<meta property="og:url" content="index.html">
+<meta property="og:title" content="Junhyeongyu Portfolio">
+<meta property="og:site_name" content="Junhyeongyu Portfolio">
+<meta property="og:description" content="Junhyeongyu Portfolio">
+<meta property="og:locate" content="ja_JP">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/images/common/ogimage.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="robots" content="noindex">
+
+<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="assets/css/common.css">
+<link rel="stylesheet"  href="assets/css/top.css">
+<link rel="stylesheet" href="assets/css/works.css">
+<link rel="stylesheet" href="https://use.typekit.net/wcm8ahi.css">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js" defer></script>
+<script src="assets/js/common.js" defer></script>
+</head>
+
+<body id="top">
+  <header class="header js-header">
+    <div class="header__inner">
+      <div class="header__container">
+        <div class="header__logo js-nav-link">
+          <a href="index.html">
+            <img src="assets/images/common/logos.png" width="25" height="41" alt="Y">
+          </a>
+        </div>
+        <button type="button" class="header__button js-nav-button" aria-label="ナビゲーションを開く">
+          <span class="header__menu">menu</span>
+          <span class="header__close">close</span>
+        </button>
+        <nav class="header__nav">
+          <ol class="header__list">
+            <li class="header__item sp-only js-nav-link">
+              <a href="index.html" class="header__link">
+                <span class="header__wrapper">
+                  <span class="header__text">Home</span>
+                  <span class="header__number">(01)</span>
+                </span>
+              </a>
+            </li>
+            <li class="header__item js-nav-link">
+              <a href="about/index.html" class="header__link">
+                <span class="header__wrapper">
+                  <span class="header__text">About</span>
+                  <span class="header__number">(02)</span>
+                </span>
+              </a>
+            </li>
+            <li class="header__item js-nav-link">
+              <a href="works.html" class="header__link">
+                <span class="header__wrapper">
+                  <span class="header__text">Works</span>
+                  <span class="header__number">(03)</span>
+                </span>
+              </a>
+            </li>
+            <li class="header__item js-nav-link">
+              <a href="#contact" class="header__link">
+                <span class="header__wrapper">
+                  <span class="header__text">Contact</span>
+                  <span class="header__number">(04)</span>
+                </span>
+              </a>
+            </li>
+          </ol>
+          <ul class="sns-list sns-list--white">
+            <li class="sns-list__item">
+              <a href="https://twitter.com/yukalqqqozlz" target="_blank" rel="noopener noreferrer" aria-label="Twitterを開く">
+                <svg>
+                  <use href="assets/images/common/icon_twitter.svg#twitter"/>
+                </svg>
+              </a>
+            </li>
+            <li class="sns-list__item">
+              <a href="https://note.com/yukango" target="_blank" rel="noopener noreferrer" aria-label="noteを開く">
+                <svg>
+                  <use href="assets/images/common/icon_note.svg#note"/>
+                </svg>
+              </a>
+            </li>
+            <li class="sns-list__item">
+              <a href="https://www.pinterest.jp/yukalqqqozlz/" target="_blank" rel="noopener noreferrer" aria-label="Pinterestを開く">
+                <svg>
+                  <use href="assets/images/common/icon_pinterest.svg#pinterest"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <section id="works" class="works js-parallax-trigger">
+      <div class="works__inner">
+        <h2 class="heading heading--works">
+          <span class="heading__wrapper">
+            <span class="heading__en split-text js-split-target js-observe-target">Works</span>
+          </span>
+          <span class="heading__jp animation-fadein js-observe-target">
+            制作物
+          </span>
+        </h2>
+
+        <div class="works-filter">
+            <button class="filter-btn is-active" data-category="all">All</button>
+            <button class="filter-btn" data-category="Website">Web</button>
+            <button class="filter-btn" data-category="Banner">UI/UX</button>
+            <button class="filter-btn" data-category="Banner">Banner</button>
+            <button class="filter-btn" data-category="Banner">DTP</button>
+          </div>
+          
+
+        <ul class="works-list js-works-list js-observe-target">
+          <li class="works-list__item js-works-item">
+            <a href="works/shizuka/index.html" class="works-list__link">
+              <span class="works-list__category">Website</span>
+              <h3 class="works-list__title">Shizuka Official Website</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/videothum.gif" width="1400" height="889" alt="Shizuka Official Website">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/kesora/index.html" class="works-list__link">
+              <span class="works-list__category">Website</span>
+              <h3 class="works-list__title">Kesora 2022 Autumn & Winter Collection</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/hogoland_thum.jpg" width="1400" height="889" alt="Kesora 2022 Autumn & Winter Collection">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/portfolio/index.html" class="works-list__link">
+              <span class="works-list__category">Website</span>
+              <h3 class="works-list__title">Yuka Kanno Portfolio</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/aroompng.png" width="1400" height="889" alt="Yuka Kanno Portfolio">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/strawberry/index.html" class="works-list__link">
+              <span class="works-list__category">Banner</span>
+              <h3 class="works-list__title">ストロベリーシェイク 販促バナー（架空）</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/heysiz.png" width="1400" height="889" alt="Strawberry Shake Banner">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/drink/index.html" class="works-list__link">
+              <span class="works-list__category">Banner</span>
+              <h3 class="works-list__title">スポーツドリンク 販促バナー（架空）</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/ttl.png" width="1400" height="889" alt="Sports Drink Banner">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/trip/index.html" class="works-list__link">
+              <span class="works-list__category">Banner</span>
+              <h3 class="works-list__title">旅行メディア サイト内バナー（架空）</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/1_1.jpg" width="1400" height="889" alt="Trip Media Site Banner">
+              </div>
+            </a>
+          </li>
+
+          <li class="works-list__item js-works-item">
+            <a href="works/trip/index.html" class="works-list__link">
+              <span class="works-list__category">Banner</span>
+              <h3 class="works-list__title">旅行メディア サイト内バナー（架空）</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/1_1.jpg" width="1400" height="889" alt="Trip Media Site Banner">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/trip/index.html" class="works-list__link">
+              <span class="works-list__category">Banner</span>
+              <h3 class="works-list__title">旅行メディア サイト内バナー（架空）</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/1_1.jpg" width="1400" height="889" alt="Trip Media Site Banner">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/trip/index.html" class="works-list__link">
+              <span class="works-list__category">Banner</span>
+              <h3 class="works-list__title">旅行メディア サイト内バナー（架空）</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/1_1.jpg" width="1400" height="889" alt="Trip Media Site Banner">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/trip/index.html" class="works-list__link">
+              <span class="works-list__category">Banner</span>
+              <h3 class="works-list__title">旅行メディア サイト内バナー（架空）</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/1_1.jpg" width="1400" height="889" alt="Trip Media Site Banner">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/trip/index.html" class="works-list__link">
+              <span class="works-list__category">Banner</span>
+              <h3 class="works-list__title">旅行メディア サイト内バナー（架空）</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/1_1.jpg" width="1400" height="889" alt="Trip Media Site Banner">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/trip/index.html" class="works-list__link">
+              <span class="works-list__category">Banner</span>
+              <h3 class="works-list__title">旅行メディア サイト内バナー（架空）</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/1_1.jpg" width="1400" height="889" alt="Trip Media Site Banner">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/trip/index.html" class="works-list__link">
+              <span class="works-list__category">Banner</span>
+              <h3 class="works-list__title">旅行メディア サイト内バナー（架空）</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/1_1.jpg" width="1400" height="889" alt="Trip Media Site Banner">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/shizuka/index.html" class="works-list__link">
+              <span class="works-list__category">Website</span>
+              <h3 class="works-list__title">Shizuka Official Website</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/videothum.gif" width="1400" height="889" alt="Shizuka Official Website">
+              </div>
+            </a>
+          </li>
+          <li class="works-list__item js-works-item">
+            <a href="works/kesora/index.html" class="works-list__link">
+              <span class="works-list__category">Website</span>
+              <h3 class="works-list__title">Kesora 2022 Autumn & Winter Collection</h3>
+              <div class="works-list__image">
+                <img src="assets/images/top/hogoland_thum.jpg" width="1400" height="889" alt="Kesora 2022 Autumn & Winter Collection">
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="cursor cursor--works pc-only js-cursor-element">
+          <p class="cursor__text">View</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__wrapper js-footer">
+        <div id="contact" class="contact">
+          <div class="contact__inner">
+            <p class="contact__title">
+              Contact
+            </p>
+            <div class="contact__mail">
+              <a href="mailto:yukalqqqozlz&#64;gmail.com" class="contact__link">junhyeongyu38@gmail.com</a>
+              <span class="contact__arrow"></span>
+            </div>
+          </div>
+        </div>
+        <div class="footer__container">
+          <div class="footer__block">
+            <ul class="sns-list sns-list--white">
+              <li class="sns-list__item">
+                <a href="https://twitter.com/yukalqqqozlz" target="_blank" rel="noopener noreferrer" aria-label="Twitterを開く">
+                  <svg>
+                    <use href="assets/images/common/icon_twitter.svg#twitter"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="sns-list__item">
+                <a href="https://note.com/yukango" target="_blank" rel="noopener noreferrer" aria-label="noteを開く">
+                  <svg>
+                    <use href="assets/images/common/icon_note.svg#note"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="sns-list__item">
+                <a href="https://www.pinterest.jp/yukalqqqozlz/" target="_blank" rel="noopener noreferrer" aria-label="Pinterestを開く">
+                  <svg>
+                    <use href="assets/images/common/icon_pinterest.svg#pinterest"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div class="footer__button">
+              <a href="#top" class="footer__link">(Back to top)</a>
+            </div>
+          </div>
+          <p class="footer__copyright">All Rights Reserved 2025 ©︎ Yu Junhyeong</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    new Swiper('.swiper', {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      speed: 6000,
+      allowTouchMove: false,
+      autoplay: {
+        delay: 0,
+      },
+    });
+
+    new Swiper('.swiper2', {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      speed: 6000,
+      allowTouchMove: false,
+      autoplay: {
+        delay: 0,
+        reverseDirection: true,
+      },
+    });
+  </script>
+
+
+ <!-- 필터링 -->
+
+ <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const items = document.querySelectorAll(".js-works-item");
+  
+      filterButtons.forEach(button => {
+        button.addEventListener("click", () => {
+          // アクティブ状態を変更
+          filterButtons.forEach(btn => btn.classList.remove("is-active"));
+          button.classList.add("is-active");
+  
+          const selectedCategory = button.dataset.category;
+  
+          items.forEach(item => {
+            const categoryElement = item.querySelector(".works-list__category");
+            const itemCategory = categoryElement ? categoryElement.textContent.trim() : "";
+  
+            // 完全一致でフィルタリング
+            if (selectedCategory === "all") {
+              item.style.display = "";
+            } else if (itemCategory === selectedCategory) {
+              item.style.display = "";
+            } else {
+              item.style.display = "none";
+            }
+          });
+        });
+      });
+    });
+  </script>
+  
+  
+
+
+</body>
+
+<!-- Mirrored from yuka-kanno.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 May 2025 15:03:27 GMT -->
+</html>
