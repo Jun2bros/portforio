@@ -69,6 +69,7 @@
 
 .mainvisual__wrapper:last-of-type {
   text-align: right;
+  margin-right: 32px;
 }
 
 .mainvisual__scroll {
