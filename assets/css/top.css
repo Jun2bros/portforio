@@ -1059,6 +1059,8 @@ a .btn-text02 {
 .swiper .swiper-wrapper,
 .swiper2 .swiper-wrapper {
   transition-timing-function: linear;
+  flex-wrap: nowrap !important; /* 줄바꿈 방지 */
+
 }
 
 .slide-content {
